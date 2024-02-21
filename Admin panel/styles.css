@@ -1,0 +1,243 @@
+/* body{
+    background-color:#595853 ;
+    
+} */
+
+
+
+                                      /*  HEROO */
+
+
+.bg{
+    background: -webkit-linear-gradient(left, wheat, #7715a0);
+}
+
+#hero{
+    background-image:linear-gradient(rgba(198, 198, 214, 0.3),rgba(198, 198, 214, 0.3)) ,url(img/a-retail-customer-with-a-face-mask.jpg);
+    height: 60vh;
+    width: 100%;
+    padding:0px 80px;
+    background-size: cover;
+    background-position: top 27% right 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow:  0px 0px 29px -3px rgba(0,0,0,0.40);
+    
+}
+
+.categories{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+    box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.40);
+    /* background-color: rgb(246, 222, 189); */
+}
+
+
+
+
+
+/* #hero h4{
+    padding-left: 60px;
+}
+#hero p{
+    padding-left: 60px;
+} */
+/* #container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+.textColor1{
+    color: white;
+}
+
+.btn-login{
+    background-color: white;
+    width: 100px;
+    position: relative;
+    padding: 5px 5px;
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-top: 8px;
+    display: inline-block;
+    /* text-decoration: none; */
+    color:black ;
+    font-weight: 600;
+    border-radius: 60px;
+    font-size: 18px;
+}
+.btn-login:hover{
+    background-color: white;
+    border: 2px solid #5f347e;
+    /* text-decoration: none; */
+    color:#5f347e ;
+}
+
+.btn1{
+    background-color: #5f347e;
+    width: 230px;
+    position: relative;
+    padding: 10px 30px;
+    border: 5px solid #5f347e;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color:black ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-weight: 500;
+    border-radius: 60px;
+
+}
+.btn1:hover{
+    color: #5f347e;
+    background-color:white;
+    border: 5px solid white;
+    font-weight: 600;
+    border-radius: 60px;
+}
+
+.search-bar{
+    height: 75px;
+    width: 100%;
+    max-width: 600px;
+    background: rgba(255,255,255,0.2);
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    display: flex;
+    justify-content: center;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color:rgb(177, 172, 172) ;
+}
+.search-bar button img{
+    width: 25px;
+
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #5f347e;
+    cursor: pointer;
+}
+
+
+/* categories */
+
+.section-p1{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+
+
+.cat{
+    /* display: flex; */
+}
+
+#cm{
+    
+    padding-top: 60px;
+}
+
+#womens{
+    width: 350px;
+    height: 550px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    
+}
+.womens-img{
+    width: 350px;
+    height: 550px;
+    
+
+    border: 2px solid #5f347e;
+    border-radius: 20px;
+    position: relative;
+}
+.womens-img:hover{
+    /* padding: 5px; */
+    border: 2px solid black;
+    transition: 0.4s;
+    box-shadow:  0px 0px 29px -3px rgba(63, 7, 95, 1);
+    cursor: pointer;
+}
+.womens-title{
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+#mens{
+    width: 350px;
+    height: 550px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.mens-img{
+    width: 350px;
+    height: 550px;
+    border: 2px solid #5f347e;
+    border-radius: 20px;
+    position: relative;
+}
+.mens-img:hover{
+    /* padding: 5px; */
+    border: 2px solid black;
+    transition: 0.4s;
+    box-shadow:  0px 0px 29px -3px rgba(63, 7, 95, 1);
+    cursor: pointer;
+}
+.mens-title{
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+#kids{
+    width: 350px;
+    height: 550px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}.kids-img{
+    width: 350px;
+    height: 550px;
+    border: 2px solid #5f347e;
+    border-radius: 20px;
+    position: relative;
+}
+.kids-img:hover{
+    /* padding: 5px; */
+    border: 2px solid black;
+    transition: 0.4s;
+    box-shadow:  0px 0px 29px -3px rgba(63, 7, 95, 1);
+    cursor: pointer;
+}
+
+.kids-title{
+    text-align: center;
+    padding-top: 5px;
+}
+
+
